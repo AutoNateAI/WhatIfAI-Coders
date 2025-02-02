@@ -10,17 +10,17 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://whatifai.dev',
+  url: 'https://autonateai.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/WhatIfAI-Coders/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'whatifai', // Usually your GitHub org/user name.
-  projectName: 'whatifai', // Usually your repo name.
+  organizationName: 'AutoNateAI', // Your GitHub org/user name.
+  projectName: 'WhatIfAI-Coders', // Your repository name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -39,8 +39,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/AutoNateAI/WhatIfAI-Coders/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -50,8 +49,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/AutoNateAI/WhatIfAI-Coders/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -65,6 +63,8 @@ const config: Config = {
   ],
 
   themeConfig: {
+    // Replace with your project's social card
+    image: 'img/social-card.jpg',
     // Replace with a modern tech color scheme
     colorMode: {
       defaultMode: 'dark',
@@ -90,7 +90,7 @@ const config: Config = {
         {to: '/digital-assets', label: 'Digital Assets', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/whatifai/whatifai',
+          href: 'https://github.com/AutoNateAI/WhatIfAI-Coders',
           label: 'GitHub',
           position: 'right',
         },
@@ -100,10 +100,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Learn',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Developer Guides',
               to: '/docs/intro',
             },
           ],
@@ -112,16 +112,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Blog',
+              to: '/blog',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/AutoNateAI/WhatIfAI-Coders',
             },
           ],
         },
@@ -129,17 +125,13 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Digital Assets',
+              to: '/digital-assets',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} WhatIfAI. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
