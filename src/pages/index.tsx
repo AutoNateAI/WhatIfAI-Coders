@@ -48,7 +48,7 @@ export default function Home(): JSX.Element {
                 <div className={styles.buttons}>
                   <Link
                     className="button button--primary button--lg"
-                    to="/docs/category/getting-started">
+                    to="/docs">
                     Get Started Now
                   </Link>
                 </div>

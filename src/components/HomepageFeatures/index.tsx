@@ -2,17 +2,18 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 type FeatureItem = {
   title: string;
-  image: string;
+  Svg: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Code Smarter, Not Harder',
-    image: '/img/code-smarter.svg',
+    Svg: 'img/code-smarter.svg',
     description: (
       <>
         Stop wrestling with boilerplate. Learn how to leverage AI to handle the 
@@ -22,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Real-World AI Applications',
-    image: '/img/real-world.svg',
+    Svg: 'img/real-world.svg',
     description: (
       <>
         Discover practical ways to integrate AI into your development workflow. 
@@ -32,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Built By Developers, For Developers',
-    image: '/img/developer-focused.svg',
+    Svg: 'img/developer-focused.svg',
     description: (
       <>
         No fluff, no hype. Just practical strategies and real examples of how 
@@ -42,11 +43,16 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+function Feature({title, Svg, description}: FeatureItem) {
+  const imgUrl = useBaseUrl(Svg);
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img className={styles.featureSvg} role="img" src={image} />
+        <img 
+          className={styles.featureSvg} 
+          role="img" 
+          src={imgUrl}
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
