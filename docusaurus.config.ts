@@ -71,13 +71,13 @@ const config: Config = {
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:title', content: 'WhatIfAI? - AI Dev Docs'},
       {name: 'twitter:description', content: '10x Your Coding Productivity with AI'},
-      {name: 'twitter:image', content: 'img/social-card.png'},
+      {name: 'twitter:image', content: 'https://autonateai.github.io/WhatIfAI-Coders/img/social-card.png'},
       
       // Open Graph (Facebook, iMessage, etc)
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'WhatIfAI? - AI Dev Docs'},
       {property: 'og:description', content: '10x Your Coding Productivity with AI'},
-      {property: 'og:image', content: 'img/social-card.png'},
+      {property: 'og:image', content: 'https://autonateai.github.io/WhatIfAI-Coders/img/social-card.png'},
       {property: 'og:image:alt', content: 'WhatIfAI Logo'},
       {property: 'og:url', content: 'https://autonateai.github.io/WhatIfAI-Coders/'},
       {property: 'og:site_name', content: 'WhatIfAI?'},
