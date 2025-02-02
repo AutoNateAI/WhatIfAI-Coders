@@ -42,6 +42,7 @@ const config: Config = {
           editUrl: 'https://github.com/AutoNateAI/WhatIfAI-Coders/tree/main/',
         },
         blog: {
+          routeBasePath: 'podcasts',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -85,10 +86,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Developer Guides',
+          label: 'AI Dev Docs',
         },
         {to: '/digital-assets', label: 'Digital Assets', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/podcasts', label: 'Podcasts', position: 'left'},
         {
           href: 'https://github.com/AutoNateAI/WhatIfAI-Coders',
           label: 'GitHub',
@@ -103,7 +104,7 @@ const config: Config = {
           title: 'Learn',
           items: [
             {
-              label: 'Developer Guides',
+              label: 'AI Dev Docs',
               to: '/docs/intro',
             },
           ],
@@ -112,8 +113,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Podcasts',
+              to: '/podcasts',
             },
             {
               label: 'GitHub',
