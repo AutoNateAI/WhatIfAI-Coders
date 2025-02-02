@@ -67,12 +67,24 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/social-card.png',
     metadata: [
+      // Twitter Card
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:title', content: 'WhatIfAI? - AI Dev Docs'},
       {name: 'twitter:description', content: '10x Your Coding Productivity with AI'},
-      {name: 'og:title', content: 'WhatIfAI? - AI Dev Docs'},
-      {name: 'og:description', content: '10x Your Coding Productivity with AI'},
-      {name: 'og:image:alt', content: 'WhatIfAI Logo'},
+      {name: 'twitter:image', content: 'img/social-card.png'},
+      
+      // Open Graph (Facebook, iMessage, etc)
+      {property: 'og:type', content: 'website'},
+      {property: 'og:title', content: 'WhatIfAI? - AI Dev Docs'},
+      {property: 'og:description', content: '10x Your Coding Productivity with AI'},
+      {property: 'og:image', content: 'img/social-card.png'},
+      {property: 'og:image:alt', content: 'WhatIfAI Logo'},
+      {property: 'og:url', content: 'https://autonateai.github.io/WhatIfAI-Coders/'},
+      {property: 'og:site_name', content: 'WhatIfAI?'},
+      
+      // Apple-specific
+      {name: 'apple-mobile-web-app-title', content: 'WhatIfAI?'},
+      {name: 'apple-mobile-web-app-capable', content: 'yes'},
     ],
     
     // Replace with a modern tech color scheme
