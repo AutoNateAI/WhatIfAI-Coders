@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- World grid -->
+  <circle cx="100" cy="100" r="80" stroke="#2563EB" stroke-width="2" stroke-opacity="0.2"/>
+  <path d="M20 100H180" stroke="#2563EB" stroke-width="2" stroke-opacity="0.2"/>
+  <path d="M100 20V180" stroke="#2563EB" stroke-width="2" stroke-opacity="0.2"/>
+  
+  <!-- Connected nodes -->
+  <circle cx="70" cy="70" r="15" fill="#60A5FA"/>
+  <circle cx="130" cy="70" r="15" fill="#818CF8"/>
+  <circle cx="100" cy="130" r="15" fill="#A78BFA"/>
+  
+  <!-- Connection lines -->
+  <path d="M70 70L130 70" stroke="#2563EB" stroke-width="3"/>
+  <path d="M70 70L100 130" stroke="#2563EB" stroke-width="3"/>
+  <path d="M130 70L100 130" stroke="#2563EB" stroke-width="3"/>
+  
+  <!-- Data flow particles -->
+  <circle cx="85" cy="70" r="3" fill="white"/>
+  <circle cx="115" cy="70" r="3" fill="white"/>
+  <circle cx="85" cy="100" r="3" fill="white"/>
+  <circle cx="115" cy="100" r="3" fill="white"/>
+</svg> 

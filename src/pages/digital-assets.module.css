@@ -1,0 +1,71 @@
+.digitalAssetsHeader {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(45deg, var(--ifm-color-primary-darker), var(--ifm-color-primary));
+  color: white;
+}
+
+.digitalAssetsHeader h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.categorySection {
+  margin-bottom: 4rem;
+}
+
+.categoryDescription {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.assetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.assetCard {
+  padding: 1.5rem;
+  border-radius: var(--ifm-card-border-radius);
+  background: var(--ifm-card-background-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.2s ease;
+}
+
+.assetCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.assetTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.assetDescription {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.assetActions {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .digitalAssetsHeader {
+    padding: 3rem 1rem;
+  }
+  
+  .digitalAssetsHeader h1 {
+    font-size: 2.5rem;
+  }
+  
+  .assetGrid {
+    grid-template-columns: 1fr;
+  }
+} 
