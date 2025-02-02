@@ -1,0 +1,21 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- What If text -->
+  <text x="50%" y="40" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="38" 
+        fill="#60A5FA">
+    What If
+  </text>
+  
+  <!-- AI? text -->
+  <text x="50%" y="85" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="45"
+        letter-spacing="-2">
+    <tspan fill="#F472B6">A</tspan><tspan fill="#A78BFA">I</tspan><tspan fill="#818CF8">?</tspan>
+  </text>
+</svg> 
