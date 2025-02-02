@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#000000"/>
+  
+  <!-- WhatIfAI Logo -->
+  <text x="600" y="250" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="100" 
+        fill="#60A5FA">
+    What If
+  </text>
+  
+  <text x="600" y="350" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="120"
+        letter-spacing="-2">
+    <tspan fill="#F472B6">A</tspan><tspan fill="#A78BFA">I</tspan><tspan fill="#818CF8">?</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="600" y="450" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="40" 
+        fill="#FFFFFF">
+    10x Your Coding Productivity with AI
+  </text>
+</svg> 
