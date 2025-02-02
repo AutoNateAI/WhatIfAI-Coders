@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoders_whatifai=self.webpackChunkcoders_whatifai||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/WhatIfAI-Coders/podcasts","blogTitle":"Blog","authorsListPath":"/WhatIfAI-Coders/podcasts/authors"}')}}]);
