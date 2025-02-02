@@ -65,7 +65,16 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/social-card.jpg',
+    image: 'img/social-card.png',
+    metadata: [
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'WhatIfAI? - AI Dev Docs'},
+      {name: 'twitter:description', content: '10x Your Coding Productivity with AI'},
+      {name: 'og:title', content: 'WhatIfAI? - AI Dev Docs'},
+      {name: 'og:description', content: '10x Your Coding Productivity with AI'},
+      {name: 'og:image:alt', content: 'WhatIfAI Logo'},
+    ],
+    
     // Replace with a modern tech color scheme
     colorMode: {
       defaultMode: 'dark',
